@@ -1,0 +1,166 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body > * {
+  width: 100%;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 20px 0 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Open Sans;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F9FAFC;
+}
+
+body nav {
+  height: 63px;
+  -webkit-box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  background-color: #F9FAFC;
+}
+
+body nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+body nav .navbar h1 a {
+  color: #000000;
+}
+
+body nav .navbar .navbar_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body nav .navbar .navbar_links li {
+  margin-left: 5px;
+}
+
+body nav .navbar .navbar_links li a {
+  color: #000000;
+}
+
+body header {
+  height: 900px;
+  position: relative;
+}
+
+body header .header-text h1 {
+  padding-top: 204px;
+  font-family: League Gothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+}
+
+body header .header-text p {
+  margin-top: 24px;
+  color: #7C828D;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+body header form input[type="email"] {
+  padding-left: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 24px;
+  width: 367px;
+  height: 51px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: block;
+}
+
+body header form input[type="submit"] {
+  margin-top: 31px;
+  width: 173px;
+  height: 51px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  background-color: #7E53FD;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+body header .header-platforms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header .header-platforms ul {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body header .header-shapes {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+/*# sourceMappingURL=homepage.css.map */

@@ -1,0 +1,108 @@
+@import "./variables";
+@import "./commons";
+
+body {
+  font-family: $primary-font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $primary-bg-color;
+
+  nav {
+    height: 63px;
+    box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+    background-color: $primary-bg-color;
+
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      h1 a {
+        color: $font-color-1;
+      }
+
+      .navbar_links {
+        display: flex;
+
+        li {
+          margin-left: 5px;
+
+          a {
+            color: $font-color-1;
+          }
+        }
+      }
+    }
+  }
+
+  header {
+    height: 900px;
+    position: relative;
+
+    .header-text {
+      h1 {
+        padding-top: 204px;
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 78px;
+      }
+      p {
+        margin-top: 24px;
+        color: $font-color-2;
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+
+    form {
+      input[type="email"] {
+        padding-left: 19px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 24px;
+        width: 367px;
+        height: 51px;
+        background: #ffffff;
+        box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        display: block;
+      }
+
+      input[type="submit"] {
+        margin-top: 31px;
+        @include button($primary-color, #ffffff);
+      }
+    }
+
+    .header-platforms {
+      display: flex;
+      flex-direction: column;
+
+      ul {
+        align-self: center;
+      }
+    }
+
+    .header-shapes {
+      position: absolute;
+      top: 100px;
+      right: 0;
+    }
+  }
+}
